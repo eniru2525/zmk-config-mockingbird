@@ -72,6 +72,13 @@
             flavor = "tap-preferred";
         };
 
+        td1: tap_dance_semi_quo {
+            compatible = "zmk,behavior-tap-dance";
+            label = "semi_quo";
+            #binding-cells = <0>;
+            bindings = <&as COLON SEMICOLON>, <&as DOUBLE_QUOTES SQT>;
+        };
+
     };
 };
 
